@@ -7,5 +7,9 @@ Nicholson, David; Queen, Jonah E.; J. Sober, Samuel (2017): Bengalese Finch song
 ### The repository currently contains output of modified versions of the following files from "paper_experiments" folder: 
 * plot_clusters.py
 * testAE.py
+* compute_embeddings.py
+* test_AE.py
 
-### The modified files will soon be uploaded.
+### Next steps:
+## Include focusing on generation of input data without the need of annotation.
+## Hence, working with raw sound data to generate detections .csv file for the purpose of applying the pipeline.
