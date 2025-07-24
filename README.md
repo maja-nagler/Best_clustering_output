@@ -11,5 +11,5 @@ Nicholson, David; Queen, Jonah E.; J. Sober, Samuel (2017): Bengalese Finch song
 * test_AE.py
 
 ### Next steps:
-## Include focusing on generation of input data without the need of annotation.
-## Hence, working with raw sound data to generate detections .csv file for the purpose of applying the pipeline.
+Include focusing on generation of input data without the need of annotation.
+Hence, working with raw sound data to generate detections .csv file for the purpose of applying the pipeline.
