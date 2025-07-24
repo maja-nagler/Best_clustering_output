@@ -24,7 +24,7 @@ def plot_bengalese_clusters():
     
     # Species loop from the original version removed
     specie = 'bengalese_finch1'
-    base_path = f'/home/mayatoja/repertoire_embedder_new/paper_experiments/{specie}'
+    base_path = f'/repertoire_embedder_new/paper_experiments/{specie}'
     print('Beginning to plot clusters')    
 
     # Changed path to match the repository's structure
@@ -37,7 +37,7 @@ def plot_bengalese_clusters():
     idxs, encodings = dic['idxs'], dic['encodings']
     df = pd.read_csv(csv_path)
     
-    
+    #UMAP
     if 'umap8' in dic:
         # CHecking if using the pre-computed 8-dimensional data is possible
         X = dic['umap8']
@@ -58,7 +58,7 @@ def plot_bengalese_clusters():
     ).fit_predict(X)
     
 
-    df_filtered = df.loc[idxs].reset_index(drop=True)  # Keeping only rows we have embeddings for, renumber from 0
+    df_filtered = df.loc[idxs].reset_index(drop=True)  # Keeping only rows with embeddings, renumber from 0
     df_filtered['cluster'] = clusters.astype(int)  # Adding cluster labels as a new column
     
     # Calculating cluster statistics
