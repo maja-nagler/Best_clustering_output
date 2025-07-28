@@ -28,8 +28,8 @@ ncomp = 2  # 2D for visualization
 frontend = 'logMel'
 
 
-# Changed directory structure- original format: f'{args.specie}/{args.specie}.csv'
-base_path = f'./repertoire_embedder_new/paper_experiments/{specie}'
+# Changed directory structure, original format: f'{args.specie}/{args.specie}.csv'
+base_path = f'./repertoire_embedder_new/paper_experiments/{specie}' #in cae of an error it might make sense to insert an absolute path
 csv_path = f'{base_path}/{specie}.csv'
 audio_path = f'{base_path}/finch1/' 
 encodings_path = f'{base_path}/encodings/'

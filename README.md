@@ -6,7 +6,6 @@ Nicholson, David; Queen, Jonah E.; J. Sober, Samuel (2017): Bengalese Finch song
 
 ### The repository currently contains output of modified versions of the following files from "paper_experiments" folder: 
 * plot_clusters.py
-* testAE.py
 * compute_embeddings.py
 * test_AE.py
 
